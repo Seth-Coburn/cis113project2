@@ -51,6 +51,14 @@ footer {
     .products-main{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        width: 90em;
+    }
+    .products-text{
+        text-align: right;
+        margin-left: auto;
+    }
+    .product-photos{
+        max-width: 5em;
     }
 }
 
