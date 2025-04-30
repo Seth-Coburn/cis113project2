@@ -5,6 +5,7 @@ html{
 .nav-list{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .nav-link {
@@ -44,4 +45,18 @@ footer {
 
 .footer-link:visited{
     color: #d9daff;
+}
+
+@media (max-width: 100em){
+    .products-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 100em){
+    .products-main{
+        display: flex;
+
+    }
 }
