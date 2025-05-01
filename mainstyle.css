@@ -8,6 +8,7 @@ header {
 
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -16,6 +17,7 @@ header {
     border: solid;
     border-color: #072866;
     background-color: #e1ecff;
+    line-height: 2.25em;
 }
 
 header {
