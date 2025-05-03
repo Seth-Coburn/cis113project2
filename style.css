@@ -54,18 +54,11 @@ footer {
         grid-template-columns: 1fr 1fr;
         margin: auto;
     }
-    .products-documentation{
-        margin: auto;
-    }
-
-    .checkout-ordering{
-        max-width: 30em;
-    }
 
     .checkout-main-footer{
     display: flex;
     }
-    .checkout-footer2{
+    .checkout-footer{
         order: 1;
     }
 
@@ -74,11 +67,9 @@ footer {
 @media (min-width: 100em){
     .products-main{
         display: flex;
-        flex-wrap: wrap;
     }
     .products-accessibility{
         margin-right: 37em;
-        width: 12em;
     }
     .product-photos{
         margin-right: 6em;
@@ -87,8 +78,7 @@ footer {
         order: 1;
         width: 15em;
     }
-
-
+    
     .checkout-main{
     display: flex;
     order: 1;
