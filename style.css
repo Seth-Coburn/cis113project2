@@ -52,20 +52,27 @@ footer {
     .products-main{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 90em;
+        margin: auto;
     }
-    .products-text{
-        text-align: right;
-        margin-left: auto;
-    }
-    .product-photos{
-        max-width: 5em;
+    .products-documentation{
+        margin: auto;
     }
 }
 
 @media (min-width: 100em){
     .products-main{
         display: flex;
-
+        flex-wrap: wrap;
+    }
+    .products-accessibility{
+        margin-right: 37em;
+        width: 12em;
+    }
+    .product-photos{
+        margin-right: 6em;
+    }
+    .products-text{
+        order: 1;
+        width: 15em;
     }
 }
