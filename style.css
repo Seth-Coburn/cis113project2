@@ -57,6 +57,18 @@ footer {
     .products-documentation{
         margin: auto;
     }
+
+    .checkout-ordering{
+        max-width: 30em;
+    }
+
+    .checkout-main-footer{
+    display: flex;
+    }
+    .checkout-footer2{
+        order: 1;
+    }
+
 }
 
 @media (min-width: 100em){
@@ -75,4 +87,11 @@ footer {
         order: 1;
         width: 15em;
     }
+
+
+    .checkout-main{
+    display: flex;
+    order: 1;
+    }
+
 }
